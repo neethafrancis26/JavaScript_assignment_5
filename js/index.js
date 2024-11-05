@@ -83,11 +83,11 @@ function nextbtn(){
     cindex = (cindex+1) % s.length;
     console.log("Entered nextbtn");
     showslide(cindex);
-
 }
 
 function previousbtn(){
     cindex = (cindex - 1 + s.length) % s.length;
     showslide(cindex);
 }
+
 showslide(cindex);
